@@ -1,3 +1,7 @@
+## Execute Mise to install the dependencies of the project
+execute `mise trust` to trust the current file holding all the environment to run the project
+then run `mise install` to finally install all the dependencies
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
