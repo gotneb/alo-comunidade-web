@@ -1,20 +1,23 @@
 # React + TypeScript + Vite + shadcn/ui
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Esse é um template de um novo projeto Vite usando React, TypeScript, TailwindCSS e shadcn/ui.
 
-## Adding components
+- Documentação [TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)
+- Componentes [ShadCN/UI](https://ui.shadcn.com/docs/components)
 
-To add components to your app, run the following command:
+## Adicionando componentes
+
+Para adicionar components no site, execute o comando:
 
 ```bash
 npx shadcn@latest add button
 ```
 
-This will place the ui components in the `src/components` directory.
+Isso criará o componente no diretório `src/components`.
 
-## Using components
+## Usando componentes
 
-To use the components in your app, import them as follows:
+Para usar os components no site, importe ele assim:
 
 ```tsx
 import { Button } from "@/components/ui/button"
